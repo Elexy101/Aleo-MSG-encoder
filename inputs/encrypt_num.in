@@ -1,0 +1,120 @@
+// The program input for encrypt_num/src/main.leo
+//a: u32 = 1u32;
+//b: u32 = 2u32;
+//c: u32 = 3u32;
+//d: u32 = 4u32;
+//e: u32 = 5u32;
+//f: u32 = 6u32;
+//g: u32 = 7u32;
+//h: u32 = 8u32;
+//i: u32 = 9u32;
+//j: u32 = 10u32;
+//k: u32 = 11u32;
+//l: u32 = 12u32;
+//m: u32 = 13u32;
+//n: u32 = 14u32;
+//o: u32 = 15u32;
+//p: u32 = 16u32;
+//q: u32 = 17u32;
+//r: u32 = 18u32;
+//s: u32 = 19u32;
+//t: u32 = 20u32;
+//u: u32 = 21u32;
+//v: u32 = 22u32;
+//w: u32 = 23u32;
+//x: u32 = 24u32;
+//y: u32 = 25u32;
+//z: u32 = 26u32;
+//space:u32 = 0u32;
+//space2: u32 = 0u32;
+
+[main]
+public h: u32 = 8u32;
+i: u32 = 9u32;
+
+[text1]
+//setting the key_value -> default key(check above)
+sender_key: u8 =  1u8;
+receiver_key: u8 = 1u8;
+//The sender triggers the message first
+sender: address = aleo19nh8mtxmx3fl6matpgztst3mvuu8kjpc7ued3hzqz8y400ddqvqsrntr3g;
+//setting the `hi` message from the sender
+h: u32 = 8u32;
+i: u32 = 9u32;
+
+[text2]
+//setting the key_value -> default key, 
+//key (sender,a) == key (receiver,a) -> This is a secure social communication
+//sometimes (sender,a) == key (receiver, b) -> This is a more secure social communication
+sender_key: u8 =  1u8;
+receiver_key: u8 = 1u8;
+//The receiver triggers the message to the sender
+receiver: address = aleo1l0l25evjzxac3j4r5xf7uwv3jfnqwll2g9h8j0g5vvk0grnnmq8qexra3d;
+//setting the `hello` message from the receiver
+h: u32 = 8u32;
+e: u32 = 5u32;
+y: u32 = 25u32;
+
+[text3]
+//key -> remember please <- (sender,a)
+sender_key: u8 =  1u8;
+receiver_key: u8 = 1u8;
+
+sender: address = aleo19nh8mtxmx3fl6matpgztst3mvuu8kjpc7ued3hzqz8y400ddqvqsrntr3g;
+
+h: u32 = 8u32;
+o: u32 = 15u32;
+w: u32 = 23u32;
+space: u32 = 0u32;
+u: u32 = 21u32;
+
+[text4]
+sender_key: u8 =  1u8;
+receiver_key: u8 = 1u8;
+receiver: address = aleo1l0l25evjzxac3j4r5xf7uwv3jfnqwll2g9h8j0g5vvk0grnnmq8qexra3d;
+
+f: u32 = 6u32;
+i: u32 = 9u32;
+n: u32 = 14u32;
+e: u32 = 5u32;
+
+[text5]
+sender_key: u8 =  1u8;
+receiver_key: u8 = 1u8;
+sender: address = aleo19nh8mtxmx3fl6matpgztst3mvuu8kjpc7ued3hzqz8y400ddqvqsrntr3g;
+
+c: u32 = 3u32;
+o: u32 = 15u32;
+o2: u32 = 15u32;
+l: u32 = 12u32;
+
+[text6]
+sender_key: u8 =  1u8;
+receiver_key: u8 = 1u8;
+receiver: address = aleo1l0l25evjzxac3j4r5xf7uwv3jfnqwll2g9h8j0g5vvk0grnnmq8qexra3d;
+
+y: u32 = 25u32;
+e: u32 = 5u32;
+a: u32 = 1u32;
+h: u32 = 8u32;
+
+
+
+[greetings]
+h: u32 = 8u32;
+o: u32 = 15u32;
+w: u32 = 23u32;
+space: u32 = 0u32;
+r : u32 = 18u32;
+spacetwo: u32 = 0u32;
+u : u32 = 21u32;
+
+[greetings_response]
+f: u32 = 6u32;
+i: u32 = 9u32;
+n: u32 = 14u32;
+e: u32 = 5u32;
+space: u32 = 0u32;
+ntwo: u32 = 14u32;
+spacetwo: u32 = 0u32;
+u : u32 = 21u32;
