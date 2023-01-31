@@ -1,0 +1,10 @@
+{
+    "program": "encrypt_num.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpCpNz8aTFgoRrCQ6BHnHSLrSAHDXFn7FVxvmTSYoBdAC3",
+        "address": "aleo19nh8mtxmx3fl6matpgztst3mvuu8kjpc7ued3hzqz8y400ddqvqsrntr3g"
+    },
+    "license": "MIT"
+}
